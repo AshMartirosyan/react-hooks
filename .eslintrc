@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+    },
+  },
+  "rules": {
+    // Your custom rules or modifications
+  },
+  "settings": {
+    "react": {
+      "version": "detect",
+    },
+  },
+  "ignores": ["./node_modules"],
+}
